@@ -18,7 +18,12 @@ body{
     float: left;
     padding: 20px;
     margin: 0 auto;
-    width: 100%;
+    max-width: 1198px;
+}
+.inside{
+    display: flex;
+    justify-content: right;
+    float: none;
 }
 
 header{
@@ -62,6 +67,21 @@ p{
     margin-bottom: 10px;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+#tenho-interesse{
+    background-color: #b8c8d6;
+    width: 100%;
+    padding: 20px 0px 20px;
+}
+
+#tenho-interesse form, .cognito.c-med .c-forms-form{
+    background-color: #b8c8d6 !important;
+}
+
 ol{
     margin-left: 30px;
 }
@@ -76,7 +96,7 @@ section{
     display: block;
     float: left;
     font-size: 1.5rem;
-    padding: 20px;
+    padding: 20px 20px 20px;
     width: 100%;
 }
 
@@ -112,12 +132,17 @@ section article{
     width: 70%;
 }
 
+#position{
+    margin-right: auto;
+    margin-left: auto;
+}
+
 footer{
     background-color:#254159;
     color: #fff;
     display: block;
     float: left;
-    padding: 20px;
+    /*padding: 20px;*/
     width: 100%;
 }
 
@@ -131,6 +156,31 @@ footer small{
     display: block;
 }
 
-.-NESTA8qX0enTIxPPGgWdw{
-    visibility: hidden !important;
+.cognito{
+    height: 320px;
+    overflow: hidden !important;
+}
+
+/*--RESPONSIVE--*/
+
+@media(max-width: 1280px){
+    header{
+        padding: 0;
+    }
+    .main-container{
+        max-width: none;
+        margin: 0;
+        width: 100vw;
+    }
+    section nav{
+        padding: 20px;
+        width: 20%;
+    }
+    .container{
+        margin: 0;
+        max-width: none;
+    }
+    section{
+        padding: 0;
+    }
 }
