@@ -184,3 +184,41 @@ footer small{
         padding: 0;
     }
 }
+
+@media(max-width: 635px){
+    section nav{
+        
+        float: none;
+        width: 100%;
+    }
+   nav ul {
+       display: inline-flex;
+   }
+   nav li{
+       width: 50px;
+   }
+   .menu__responsivo{
+       display: flex;
+       justify-content: center;
+   }
+   .menu__responsivo--movimento{
+       display: flex;
+       justify-content: center;
+   }
+  .container{
+      display: flex;
+      flex-wrap: wrap;    
+  }
+  section article{
+      width: 100%;
+  }
+  h1{
+      margin: 0 auto;
+  }
+  .cognito{
+      height: 307px;
+  }
+  .cognito .c-button{
+      margin: -7px 8px 8px;
+  }
+}
