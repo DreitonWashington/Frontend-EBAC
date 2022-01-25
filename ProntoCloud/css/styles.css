@@ -306,3 +306,118 @@ dd{
 .fundo h1{
     color: #254159;
 }
+
+/*RESPONSIVE*/
+
+@media(max-width: 667px){
+    .button-cta{
+        font-size: 1.7rem;
+    }
+    #position{
+        padding: 20px 100px;
+    }
+    .cognito .c-field{
+        padding: 6px 0px;
+        padding-left: 30px;
+    }
+}
+@media(max-width: 636px){
+    .button-cta{
+        font-size: 1.4rem;
+        height: 14px;
+    }
+    #position{
+        padding: 20px 90px;
+    }
+    .container-legenda{
+        margin: 10vh 10vh 0 58vh;
+    }
+    .ps{
+        margin-left: 120px;
+    }
+}
+@media(max-width: 635px){
+    #position{
+        padding: 20px 0px;
+    }
+    .button-cta{
+        font-size: 1.2rem;
+    }
+}
+@media(max-width: 603px){
+    .button-cta{
+        width: 114px;
+    }
+    .ps{
+        width: 68px;
+    }
+}
+@media(max-width: 590px){
+    .container-legenda{
+        margin: 10vh 10vh 0 48vh;
+    }
+    .ps{
+        margin-left: 8.3rem;
+    }
+}
+@media(max-width: 522px){
+    .container-legenda{
+        margin: 10vh 10vh 0 40vh;
+    }
+    .ps{
+        margin-left: 4.3rem;
+    }
+    .legenda{
+        margin-bottom: 2rem;
+    }
+    .ps{
+        margin-left: 1.3rem;
+    }
+}
+@media(max-width: 451px){
+    .container{
+        padding: 5px;
+    }
+}
+@media(max-width: 400px){
+    #saiba-mais p, #saiba-mais img{
+        width: 89%;
+    }
+    .ps{
+        margin: 0 auto;
+    }
+    h1{
+        padding: 0px 20px;
+    }
+    .fix{
+        padding: 0px 20px;
+    }
+    .legenda{
+        position: relative;
+        margin-left: -38px;
+    }
+    .ps2{
+        position: absolute;
+        margin-left: -52px;
+    }
+}
+@media(max-width: 369px){
+    .legenda{
+        position: relative;
+        margin-left: -80px;
+    }
+    .ps2{
+        position: absolute;
+        margin-left: -92px;
+    }
+}
+@media(max-width: 335px){
+    .legenda{
+        position: relative;
+        margin-left: -95px;
+    }
+    .ps2{
+        position: absolute;
+        margin-left: -106px;
+    }
+}
