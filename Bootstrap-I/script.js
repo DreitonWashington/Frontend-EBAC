@@ -56,3 +56,10 @@ for(let foco of campObg){
 for(let foco of campoEmail){
     validaEmail(foco);
 }
+
+/*Carousel*/
+var myCarousel = document.querySelector('#carouselfachada')
+var carousel = new bootstrap.Carousel(myCarousel, {
+  interval: 10000,
+  wrap: true
+})
