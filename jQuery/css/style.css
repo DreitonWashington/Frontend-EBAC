@@ -264,9 +264,9 @@
     justify-content: center;
     padding: 10px;
 }
-/* .info-news h4,h6{
+.color-news{
     color: #FFF;
-} */
+} 
 .info-news h4{
     padding-top: 35px;
 }
