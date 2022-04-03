@@ -25,24 +25,24 @@ $('.nav-modal-open').on('click', function(event){
 
     myModal.show(),
 
-
+    // $('.modal-footer button:nth(1)').hide()
     //Validação do Campo CPF
-$('input#cpf').focusout(function(){
+    $('input#cpf').focusout(function(){
 
-    const cpfValido = /[0-9]+.+[0-9]+.+[0-9]+-+[0-9]{2}/i;
-    if($(this).val().match(cpfValido)){
-        $('.invalid').text('')
-        ,$('input#cpf').css('border-color','#dce0e5')
-        ,$('.invalid').removeClass('err')
-    }else{
-        $('.invalid').text('Formato invalido, tente no formato xxx.xxx.xxx-xx')
-        ,$('input#cpf').css('border-color','#F00')
-        ,$('.invalid').addClass('err')
-        ,$('.invalid').css({
-            color: "#F00"
-        })
-    }
-}),
+        const cpfValido = /[0-9]+.+[0-9]+.+[0-9]+-+[0-9]{2}/i;
+        if($(this).val().match(cpfValido)){
+            $('.invalid').text('')
+            ,$('input#cpf').css('border-color','#dce0e5')
+            ,$('.invalid').removeClass('err')
+        }else{
+            $('.invalid').text('Formato invalido, tente no formato xxx.xxx.xxx-xx')
+            ,$('input#cpf').css('border-color','#F00')
+            ,$('.invalid').addClass('err')
+            ,$('.invalid').css({
+                color: "#F00"
+            })
+        } 
+    }),
 
     //Validação do Campo Nome
     $(document).ready(function(){
