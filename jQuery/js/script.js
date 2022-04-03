@@ -180,5 +180,3 @@ muda.addListener(myFunction)
 // if(tirarNav == tirarNav){//tirarNav == tirarNav é só para ter uma condição para entrar no if
 //     document.getElementsByClassName('navbar-nav')[0].remove()
 // }
-
-

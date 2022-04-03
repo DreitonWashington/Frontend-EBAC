@@ -150,6 +150,7 @@
 .owl-theme .owl-dots {
 	text-align: center;
 	margin-top: 30px;
+    margin-bottom: 30px;
 }
 .owl-theme .owl-dots .owl-dot {
 	outline: none;
@@ -247,6 +248,50 @@
 .sub-footer a {
 	color: #bd2300;
 	text-decoration: none;
+}
+/*Email para Novidades*/
+.bg-c{
+    background-color: #bd2300;
+    height: 200px;
+}
+.input-news{
+    width: 35%;
+    display: inline;
+    border-color: #FFF;
+}
+.em-fix{
+    display:flex;
+    justify-content: center;
+    padding: 10px;
+}
+.info-news h4,h6{
+    color: #FFF;
+}
+.info-news h4{
+    padding-top: 35px;
+}
+.info-news h6{
+    padding-top: 20px;
+}
+.btn{
+    margin-left: 20px;
+    background-color: #bd2300;
+    border-color: #FFF;
+}
+.btn-primary:hover{
+    background-color: #bd2300!important;
+    border-color: #FFF;
+}
+.news{
+    margin-top: 60px;
+}
+.nav-item{
+    cursor: pointer;
+}
+.err{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
 }
 
 /*RESPONSIVIDADE*/
