@@ -1,0 +1,78 @@
+.container {
+    width: 1320px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    nav{
+        display: flex;
+    }
+    .banner{
+        height: 700px;
+    }
+    .card{
+        width: 30%;
+        float: left;
+        margin: 0 auto;
+        padding: 5px 5px 40px 5px;
+        
+        a{
+            text-decoration: none;
+            cursor: pointer;
+        }
+        button{
+            font-size: 2.2rem;
+            width: 100vw;
+            height: 30px;
+            background-color: $cl-red;
+            color: $cl-white;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: green;
+            color: $cl-white;
+        }
+        .move-button{
+            display: flex;
+            justify-content: center;
+        }
+    }
+    
+}
+.fix-card{
+    height: 600px;
+}
+.img-fluid{
+    max-width: 100%;
+    max-height: 100%;
+}
+.center-fix-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    margin-left: 1000px;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    ul{
+        font-size: 2.2rem;
+    }
+    li{
+        float: left;
+        list-style: none;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: $cl-base;
+    }
+    li:hover{
+        color: $cl-red;
+    }
+}
