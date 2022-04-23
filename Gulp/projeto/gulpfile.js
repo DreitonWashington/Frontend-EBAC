@@ -65,10 +65,19 @@ gulp.task('serve', function(){
             baseDir: "./dist"
         }
     })
-    gulp.watch('./dist/**/*').on('change',reload)
+    gulp.watch('./src/**/*').on('change',process)
+    gulp.watch('./src/**/*').on('change',reload)
+    
 })
 
-exports.default = parallel(tarefasHtml, tarefasCss, tarefasJs)
+function end(cb){
+    console.log("Tarefas concluídas")
+    return cb();
+}
+
+const process= series(tarefasHtml, tarefasCss, tarefasJs, end)
+
 exports.styles = tarefasCss
 exports.scripts = tarefasJs
 exports.image = tarefaImages
+exports.default = process
