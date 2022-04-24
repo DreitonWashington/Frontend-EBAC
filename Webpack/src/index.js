@@ -8,13 +8,13 @@ function rootStyle(){
 
 function titleComponent(){
     const elemH1 = document.createElement('h1')
-    elemH1.innerHTML = 'FERRARI'
+    elemH1.innerHTML = 'Ferrari'
     elemH1.classList.add('title')
     return elemH1
 }
 
 function imageComponent(){
-    const elemImg = new Image(1980,900)
+    const elemImg = new Image()
     elemImg.src = img
     return elemImg
 }

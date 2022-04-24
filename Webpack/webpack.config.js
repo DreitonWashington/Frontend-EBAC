@@ -9,8 +9,8 @@ module.exports = {
         filename: 'main.js',
         path: path.resolve(__dirname, 'dist')
     },
-    module: {
-        rules: [
+    module:{
+        rules:[
             {
                 test: /\.(sa|c|sc)ss$/i, 
                 use: [
@@ -47,14 +47,14 @@ module.exports = {
             }
         ]
     },
-    plugins: [
+    plugins:[
         new HtmlWebpack({
             filename: 'index.html',
             template: './src/index.html'
         }),
         new MiniCssExtract({
-            filename: 'style.css'
+            filename: 'styles.css'
         })
-    ]
 
+    ]
 }
