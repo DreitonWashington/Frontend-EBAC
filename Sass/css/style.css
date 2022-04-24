@@ -15,55 +15,16 @@ html {
   margin-right: auto;
   margin-left: auto;
 }
-.container nav {
-  display: flex;
-}
-.container .banner {
-  height: 700px;
-}
-.container .card {
-  width: 30%;
-  float: left;
-  margin: 0 auto;
-  padding: 5px 5px 40px 5px;
-}
-.container .card a {
-  text-decoration: none;
-  cursor: pointer;
-}
-.container .card button {
-  font-size: 2.2rem;
-  width: 100vw;
-  height: 30px;
-  background-color: #F00;
-  color: #FFF;
-  cursor: pointer;
-}
-.container .card button:hover {
-  background-color: green;
-  color: #FFF;
-}
-.container .card .move-button {
-  display: flex;
-  justify-content: center;
-}
-
-.fix-card {
-  height: 600px;
-}
-
-.img-fluid {
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.center-fix-card-container {
+.container--center-fix-card-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.menu {
+.navigation {
+  display: flex;
+}
+.navigation .menu {
   display: flex;
   justify-content: center;
   height: 50px;
@@ -74,18 +35,56 @@ html {
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
 }
-.menu ul {
+.navigation .menu__list {
   font-size: 2.2rem;
 }
-.menu li {
+.navigation .menu__item-list {
   float: left;
   list-style: none;
   margin-left: 10px;
   margin-right: 10px;
   color: #293036;
 }
-.menu li:hover {
+.navigation .menu__item-list:hover {
   color: #F00;
+}
+
+.cars__banner {
+  height: 700px;
+}
+.cars__card {
+  width: 30%;
+  float: left;
+  margin: 0 auto;
+  padding: 5px 5px 40px 5px;
+}
+.cars__card--fix-card {
+  height: 600px;
+}
+.cars__card a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.cars__button {
+  font-size: 2.2rem;
+  width: 100vw;
+  height: 30px;
+  background-color: #F00;
+  color: #FFF;
+  cursor: pointer;
+}
+.cars__button:hover {
+  background-color: green;
+  color: #FFF;
+}
+.cars__button--move-button {
+  display: flex;
+  justify-content: center;
+}
+
+.img-fluid {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
