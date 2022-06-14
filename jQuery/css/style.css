@@ -292,6 +292,7 @@
     display: flex;
     justify-content: center;
     font-style: italic;
+    color: #F00;
 }
 
 /*RESPONSIVIDADE*/
