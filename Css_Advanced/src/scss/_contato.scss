@@ -1,0 +1,36 @@
+#contato{
+    background-color: $color-bg-default;
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: 0 auto;
+
+        input{
+            border-color: white;
+            border-radius: 5px;
+            border-style: none;
+            height: 50px;
+            margin: 10px 0;
+            
+        }
+        label{
+            font-size: 19px;
+            color: white;
+        }
+        button{
+            width: 15%;
+            height: 35px;
+            align-self: center;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border-style: none;
+
+            &:hover{
+                cursor: pointer;
+                border: 1px solid black;
+            }
+        }
+    }
+}

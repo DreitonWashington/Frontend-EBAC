@@ -1,0 +1,24 @@
+nav{
+    color: white;
+    
+    ul{
+        display: flex;
+        list-style-type: none;
+        font-size: $font-size-menu;
+        
+        li:first-child:hover{
+            transform:  scale(1.1);
+            
+        }
+        li:nth-child(2):hover{
+            transform: scale(1.1);
+        }
+        li:nth-child(3):hover{
+            transform: scale(1.1)
+        }
+        a:hover{
+            color: $color-bg-boxes;
+        }
+    }
+
+}

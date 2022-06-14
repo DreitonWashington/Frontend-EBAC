@@ -1,20 +1,25 @@
 $color-font: #fff ;
-$color-bg-default: #d62718;
-$color-bg-boxes: #FD3;
+$color-bg-default: #600097;
+$color-bg-secondary: #a501c2;
+$color-bg-test: #370255;
+$color-bg-boxes: #fbcd4f;
 $font-default: Arial, Helvetica, sans-serif;
 $font-size-default: 1.6rem;
+$font-size-menu: 1.9rem;
+$font-ds: "DancingScript";
+
+
 
 html {
     font-size: 62.5%;
 }
 
 body {
-    background-color: $color-bg-default;
     font-family: $font-default;
+    margin: 0;
 }
 
 h1 {
-    color: $color-font;
     text-align: center;
     margin-top: 4rem;
 }
@@ -25,8 +30,10 @@ h2 {
 nav a{
     text-decoration: none;
     color: $color-font;
+    margin: 20px;
 }
 
+#root,
 header,
 section,
 footer{
@@ -36,13 +43,20 @@ footer{
 }
 .container{
     display: flex;
-    flex-flow: column;
-    margin: 0 auto;
+    
     max-width: 90vw;
-}
-
-#produtos{
+    margin: 0 auto;
 
 }
+#produtos{   
+    background-color: #fbcd4f;
+}
 
-@import 'vitrine'
+@import 'vitrine';
+@import 'fonts';
+@import 'header';
+@import 'nav';
+@import 'sobre';
+@import 'catalogo';
+@import 'contato';
+@import 'animations';

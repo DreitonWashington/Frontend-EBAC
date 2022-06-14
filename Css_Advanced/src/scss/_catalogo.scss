@@ -1,0 +1,18 @@
+#catalogo, #contato{
+    background-color: #dcdcdc;
+    .container{
+        flex-direction: column;
+            
+        h1{
+            display: flex;
+            justify-content: flex-start;
+            font-size: 4.6rem;
+            color: white;
+            
+            /*Texto Gradient*/
+            background: -webkit-linear-gradient(#fcda57, #fc7430);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+}

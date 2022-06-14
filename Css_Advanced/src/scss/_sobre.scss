@@ -1,0 +1,29 @@
+#sobre{
+    background-color: $color-bg-default;
+    padding-bottom: 50px;
+    .container{
+        flex-direction: column;
+        background-color: $color-bg-test;
+        border-radius: 10px;    
+        h1{
+            display: flex;
+            justify-content: flex-start;
+            font-size: 4.6rem;
+            color: white;
+            padding-left: 5px;
+            margin-bottom: 1rem;
+            
+            /*Texto Gradient*/
+            background: -webkit-linear-gradient(#fcda57, #fc7430);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        p{
+            color: white;
+            font-size: 15px;
+            margin: 15px;
+        }
+    }
+
+}
