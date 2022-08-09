@@ -1,0 +1,33 @@
+
+.block-video{
+    display: grid;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.293);
+  
+    margin-top: 50px;
+
+
+    
+}
+
+.grid-item{
+        
+    width: 440px;
+    margin: 5px;
+    
+    img{
+        border-radius: 10px;
+        width: 100%;
+    }
+    video{
+        margin: 5px;
+        border-radius: 10px;
+        width: 440px;
+        height: auto;
+    }
+
+}
+
+.esp{
+    height: 248px!important;
+}

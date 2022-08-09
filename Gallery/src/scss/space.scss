@@ -1,0 +1,102 @@
+html{scroll-behavior: smooth;}
+body{
+    background-color: #4a0886;
+}
+
+.all_background{
+    position: relative;
+
+    h1{
+        bottom: 104px;
+        position: absolute;
+    }
+    .img_fundo{
+        background-image: url("/src/img/layered-peaks-haikei.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 750px;
+        img{
+            width: 100%;
+            height: 750px;
+        }
+    }
+    .nave{
+        position: absolute;
+        top: 0;
+        animation: move 10s infinite;
+        img{
+            width: 50%;
+        }
+
+    }
+    .fire{
+        position: absolute;
+       
+        top: -10px;
+        left: 0;
+        animation: fire 10s infinite;
+
+        img{
+            width: 50%;
+        }
+
+    }
+    .est{
+        position: absolute;
+        top: 130px;
+        text-align-last: center;
+        img{
+            width: 50%;
+        }
+        animation: move 10s infinite;
+    }
+}
+    @keyframes move{
+        0%{transform: translateY(10px) }
+        50%{transform: translateY(30px)}
+        100%{transform: translateY(10px)}
+    }
+    @keyframes moveN{
+        0%{transform: translateY(10px) }
+        50%{transform: translateY(13px)}
+        100%{transform: translateY(10px)}
+    }
+    @keyframes fire{
+        0%{transform: translateY(10px) }
+        50%{transform: translateY(13px)}
+        100%{transform: translateY(10px)}
+        0%{opacity: 0%;}
+        25%{opacity: 25%;}
+        50%{opacity: 50%;}
+        100%{opacity: 100%;}
+    }
+
+
+ul{
+    position: absolute;
+    z-index: 5;
+    color: $color-font;
+    padding-top: 30px;
+    padding-right: 30px;
+    justify-content: end;
+    display: flex;
+    right: 0;
+    margin: 0;
+    background-color: #1c0937;
+    li{
+        list-style-type: none;
+        margin-right: 15px;
+        margin-left: 15px;
+
+        a{
+            text-decoration: none;
+            color: $color-font;
+            
+            &:hover{
+                cursor: pointer;
+                color: $color-default;
+            }
+        }
+    }
+}

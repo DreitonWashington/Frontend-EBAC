@@ -1,0 +1,40 @@
+$color-font: #fff;
+$color-bg-default: #33f;
+$font-default: Arial, Helvetica, sans-serif;
+$color-default: #4a0886;
+
+body {
+    
+    
+    font-family: $font-default;
+    margin: 0;
+    
+}
+
+h1 {
+    color: $color-font;
+    text-align: center;
+    width: 100%;
+}
+h2 {
+    margin-left: 50px;
+    margin-top: 50px;
+    color: $color-font;
+}
+
+.container {
+    display: block;
+    // max-width: 1200px;
+    margin: 0 auto;
+   
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+
+@import 'space';
+@import 'gridStyle';
+@import 'block-video';
