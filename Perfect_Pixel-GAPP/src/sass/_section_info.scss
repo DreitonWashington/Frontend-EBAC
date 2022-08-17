@@ -1,0 +1,48 @@
+.row{  
+    margin: 0 auto!important;
+    background-color: white;
+
+    .col{
+        margin-top: 50px;
+        margin: 32px 0 0 14px;
+        h2{
+            font-size: 24px;
+            font-family: 'Myriad Pro Regular', Arial, Helvetica, sans-serif;
+        }
+        p{
+            font-size: 14px;
+            font-family: 'Myriad Pro Regular', Arial, Helvetica, sans-serif;
+        }
+    }
+}
+
+button{
+    display: flex;
+    width: 125px;
+    height: 30px;
+    background-color: white;
+    padding: 0;
+    border: 2px solid #dcdcdc;
+    border-radius: 2px!important;
+    
+
+.sb-icon{
+    background-color: #cccccc;
+    width: 35px!important;
+    height: 20px!important;
+    margin-left: 10px;
+    margin-top: 3px;
+    }
+
+    .sb-icon-hover{
+    background-color: $default-color!important;
+    width: 35px!important;
+    height: 20px!important;
+    margin-left: 10px;
+    margin-top: 3px;
+    }
+
+}
+#b1,#b2{
+    color: $default-color;
+}

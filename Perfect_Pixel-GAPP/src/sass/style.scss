@@ -1,0 +1,35 @@
+$default-color: #dc002d;
+$default-back-color: #fff;
+
+body{
+    margin: 0;
+}
+.back-img{
+    background-image: url("/src/img/img-background.jpg");
+    background-size: contain;
+    height: 442px;
+    
+}
+.back-img-2{
+    background-image: url("/src/img/back-2.jpg");
+}
+.container_2{
+    margin: 0 auto;
+    max-width: 990px;
+}
+ul{
+    a{
+        text-decoration: none;
+    }
+}
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Regular'), url('../fonts/MYRIADPRO-REGULAR.woff') format('woff');
+}
+
+@import 'header';
+@import 'section_banner';
+@import 'section_info';
+@import 'footer';
