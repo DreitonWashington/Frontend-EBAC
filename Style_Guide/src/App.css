@@ -37,6 +37,22 @@
   background-color: #fff!important;
   color: black!important;
 }
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+  background-color: black!important;
+}
+.css-cvhtoe-MuiButtonBase-root-MuiListItemButton-root{
+  color: #fff!important;
+}
+.css-cveggr-MuiListItemIcon-root{
+  color: rgb(255 255 255 / 54%)!important;
+}
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+  color: rgb(255 255 255 / 54%)!important;
+}
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+  background-color: rgb(255 255 255 / 54%)!important;
+}
+
 
 .App-link {
   color: #61dafb;
