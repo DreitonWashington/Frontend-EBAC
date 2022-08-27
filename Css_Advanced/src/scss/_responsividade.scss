@@ -1,0 +1,188 @@
+
+@media(max-width: 320px){
+    header{
+        .logo{
+            width: 50vw;
+            margin: 20px auto;
+        }
+        .banner{
+            margin: 0px;
+            width: 100vw;
+            margin-bottom: 40px!important;
+            p{
+                font-size: 3.6rem;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        }   
+        
+        .container{
+            .menu{
+                min-width: -webkit-fill-available;
+
+                nav{
+                    width: 288px;
+                    
+                    ul{
+                        padding: 0;
+                        text-align: center;
+
+                        li{
+                            min-width: 90px;
+                            max-width: 90px;
+                        }
+                    }
+                    a{
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+    .md{
+        margin-bottom: 2px!important;
+    }
+    .vitrine{
+        grid-template-columns: repeat(1, 1fr);
+        height: auto;
+    }
+
+
+
+    #contato{
+        .form{
+            button{
+                width: 45%;
+            }
+        }
+    }
+}
+@media(max-width: 375px){
+    header{
+        .logo{
+            width: 50vw;
+            margin: 20px auto;
+        }
+        .menu{
+            margin: 0 auto;
+
+            nav{
+                ul{
+                    padding: 0;
+                }
+            }
+        }
+        .banner{
+            margin: 0;
+            width: 100vw;
+            margin-top: 40px;
+            margin-bottom: 130px;
+        }
+    }
+    .vitrine{
+        height: auto;
+        grid-template-columns: repeat(1,1fr);
+
+        &__title{
+            font-size: 1.5rem!important;
+        }
+        &__desc{
+            font-size: 1.3rem!important;
+        }
+    }
+    .md{
+        margin-bottom: 2px!important;
+    }
+    
+    #contato{
+        // h1{
+
+        //     margin: 10px auto;
+        // }
+        .form{
+            button{
+                width: 45%;
+            }
+        }
+    }
+}
+@media(max-width: 426px){
+    header{
+        .logo{
+            width: 50vw;
+            margin: 20px auto;
+        }
+        .menu{
+            margin: 0 auto;
+
+            nav{
+                ul{
+                    padding: 0;
+                }
+            }
+        }
+        .banner{
+            margin: 0;
+            width: 100vw;
+            margin-top: 40px!important;
+            margin-bottom: 130px!important;
+        }
+    }
+    .vitrine{
+        height: auto;
+        grid-template-columns: repeat(1,1fr)!important;
+
+        &__title{
+            font-size: 1.5rem!important;
+        }
+        &__desc{
+            font-size: 1.3rem!important;
+        }
+    }
+    .md{
+        margin-bottom: 2px!important;
+        
+    }
+    
+    #contato{
+        // h1{
+
+        //     margin: 10px auto;
+        // }
+        .form{
+            button{
+                width: 45%;
+            }
+        }
+    }
+}
+@media(max-width: 768px){
+    header{
+        .banner{
+            margin: 0;
+            width: 100vw;
+        }
+    }
+    #catalogo{
+        .vitrine{
+            grid-template-columns: repeat(2, 2fr);
+            height: auto;
+
+            &__title{
+                font-size: 2rem;
+            }
+            &__desc{
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+@media(max-width: 1024px){
+    header{
+        .banner{
+                p{
+                    font-size: 4rem!important;
+                }
+        }
+    }
+}

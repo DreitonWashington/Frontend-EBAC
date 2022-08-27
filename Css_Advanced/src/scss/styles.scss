@@ -12,6 +12,7 @@ $font-ds: "DancingScript";
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -60,3 +61,4 @@ footer{
 @import 'catalogo';
 @import 'contato';
 @import 'animations';
+@import 'responsividade';
